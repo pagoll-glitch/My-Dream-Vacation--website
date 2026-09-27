@@ -1,0 +1,267 @@
+body {
+    margin: 0;
+    background-color: #f8dfe7;
+    color: #5b1717;
+    font-family: Arial, sans-serif;
+}
+
+.title {
+    font-family: Georgia, serif;
+    font-size: 40px;
+    padding: 30px 50px;
+    border-bottom: 1px solid #8b6d5c;
+}
+
+.paris {
+    padding: 60px 80px;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-size: 100px;
+    margin: 0;
+}
+
+.heading p {
+    font-family: "Times New Roman", serif;
+    font-size: 22px;
+    font-style: italic;
+    margin-top: 45px;
+    letter-spacing: 1px;
+}
+
+img {
+    width: 65%;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.history {
+    width: 65%;
+    margin: 50px auto;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.history h2 {
+    font-family: Georgia, serif;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.history p {
+    margin-bottom: 20px;
+}
+
+
+/* Food section */
+
+.food {
+    width: 80%;
+    margin: 70px auto;
+}
+
+.food h2 {
+    font-family: Georgia, serif;
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+
+.food-card {
+    background-color: #f5edda;
+    padding: 25px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+
+.food-card img {
+    width: 100%;
+    max-width: 500px;
+    margin: 0;
+}
+
+.food-card h3 {
+    font-family: Georgia, serif;
+    font-size: 25px;
+}
+
+.food-card p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Top Places to Visit */
+
+.places {
+    width: 80%;
+    margin: 90px auto;
+}
+
+.places h2 {
+    font-family: Georgia, serif;
+    font-size: 35px;
+    margin-bottom: 45px;
+}
+
+.places-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.place-card {
+    background-color: #f5edda;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.place-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    margin: 0;
+}
+
+.place-card h3 {
+    font-family: Georgia, serif;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.place-card p {
+    font-size: 15px;
+    line-height: 1.5;
+}
+/* Clickable Food Names */
+
+.food-card h3 a {
+    color: #5b1717;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.food-card h3 a:hover {
+    color: #8b6d5c;
+    text-decoration: underline;
+}
+
+.food-link {
+    color: #8b6d5c;
+    font-style: italic;
+    font-size: 14px;
+}
+
+.box {
+    background-color: #f5edda;
+    padding: 25px;
+    margin-top: 30px;
+}
+
+/* NAVBAR */
+
+nav {
+    background-color: #5b1717;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 17px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* EXPLORE BUTTON */
+
+.button {
+    display: inline-block;
+    background-color: #5b1717;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.button:hover {
+    background-color: #8b6d5c;
+}
+
+
+/* WHY PARIS */
+
+.why-paris {
+    width: 70%;
+    margin: 70px auto;
+    text-align: center;
+}
+
+.why-paris h2 {
+    font-family: Georgia, serif;
+    font-size: 35px;
+}
+
+.why-paris p {
+    font-size: 20px;
+    line-height: 1.7;
+}
+
+
+/* PLAN MY DAY */
+
+.plan {
+    width: 80%;
+    margin: 80px auto;
+    text-align: center;
+}
+
+.plan h2 {
+    font-family: Georgia, serif;
+    font-size: 35px;
+}
+
+.plan-card {
+    background-color: #f5edda;
+    padding: 25px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.plan-card:hover {
+    transform: translateY(-5px);
+}
+
+
+/* FOOD CARD HOVER */
+
+.food-card {
+    transition: 0.3s;
+}
+
+.food-card:hover {
+    transform: translateY(-8px);
+}
+
+
+/* PLACE CARD HOVER */
+
+.place-card {
+    transition: 0.3s;
+}
+
+.place-card:hover {
+    transform: translateY(-8px);
+}
